@@ -1,0 +1,16 @@
+.wordcloud {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 350px;
+  pointer-events: none;
+}
+.cloud-word {
+  position: absolute;
+  opacity: 0.75;
+  color: #b37feb;
+  user-select: none;
+  transition: transform 0.3s;
+  font-family: "FZLanTingHei", "PingFang SC", "sans-serif";
+}
